@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
+    <entity name="ScannedCode" representedClassName="ScannedCode" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="codeValue" optional="NO" attributeType="String"/>
+        <attribute name="codeType" optional="NO" attributeType="String"/>
+        <attribute name="customName" optional="YES" attributeType="String"/>
+        <attribute name="scanDate" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="rawContent" optional="YES" attributeType="String"/>
+        <attribute name="productName" optional="YES" attributeType="String"/>
+        <attribute name="brand" optional="YES" attributeType="String"/>
+        <attribute name="ingredients" optional="YES" attributeType="String"/>
+        <attribute name="nutriScore" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="ScannedCode" positionX="-63" positionY="-18" width="128" height="44"/>
+    </elements>
+</model>
